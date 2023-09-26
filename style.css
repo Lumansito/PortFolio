@@ -1,0 +1,123 @@
+*
+{
+    background-color: white;
+    padding: 0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+header{
+    height: 100vh;
+}
+header h1{
+    padding: 15%;
+    font-size: 50px;
+    text-align: center;
+    height: 100%;
+    background: rgb(145,0,210);
+    background: linear-gradient(74deg, rgba(145,0,210,1) 0%, rgba(123,29,213,1) 17%, rgba(0,192,231,1) 40%, rgba(0,192,231,1) 64%, rgba(28,9,121,1) 97%);
+}
+
+
+.conteiner{
+    padding-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.imgRedonda{
+    overflow: hidden;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    position: relative;
+}
+.yo{
+    width: 100%; /* Asegura que la imagen se ajuste al contenedor cuadrado */
+    height: 100%; /* Asegura que la imagen se ajuste al contenedor cuadrado */
+    object-fit: cover; /* Ajusta la imagen para llenar completamente el contenedor sin deformarla */
+    position: absolute; /* Añade posición absoluta para ajustar la posición de la imagen dentro del contenedor */
+    top: 0; /* Ajusta esta propiedad para centrar verticalmente la imagen */
+    left: 0
+}
+h3{
+    padding: 100px;
+    font-size: 30px;
+}
+
+#logoUtn{
+    height: 50%;
+    float: left;
+    margin: 10px;
+}
+.enmarcado p{
+    font-size: 25px;
+}
+.enmarcado{
+    z-index: 1;
+    height: 400px;
+    width: 500px;
+}
+.skills{
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start;
+}
+.itemSkill{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 100px;
+    align-items: center;
+    
+}
+.itemSkill img{
+    width: 150px;
+}
+.itemSkill h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+    
+}
+footer h3{
+    margin-top: 400px;
+    font-size: 50px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+}
+.links{
+    margin: 200px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(47, 180, 229);
+    justify-content: center;
+    border-radius: 10px;
+    color: #000;
+    font-weight: 800;
+    margin: 10px;
+    transition: all 0.s;
+
+}
+.btn:hover{
+    background-color:  rgb(67, 162, 197);
+    height: 45px;
+    width: 110px;
+}
