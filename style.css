@@ -118,13 +118,48 @@ footer a{
 }
 @media screen and (max-width: 900px) {
     .links{
-        margin: 200px;
+        margin: 50px;
         margin-top: 0;
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: space-between;
     }
+    .imgRedonda{
+        overflow: hidden;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        position: relative;
+    }
+
+        .enmarcado{ 
+            
+            height: 400px;
+            width: 200px;
+            margin-bottom: 250px;
+        }
+        .enmarcado p{
+            font-size: 20px;
+        }
+        #logoUtn{
+            height: 60%;
+            float: left;
+            margin: 10px;
+        }
+        .someSkills{
+            font-size: 30px;
+            margin-top: 200px;
+            padding: 20px;
+        }
+        footer h3{
+            font-size: 30px;
+            padding: 30px;
+            margin-top: 200px;
+        }
+
+    
+}
 }
 .btn:hover{
     background-color:  rgb(67, 162, 197);
