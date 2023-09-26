@@ -116,6 +116,16 @@ footer a{
     transition: all 0.s;
 
 }
+@media screen and (max-width: 900px) {
+    .links{
+        margin: 200px;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
 .btn:hover{
     background-color:  rgb(67, 162, 197);
     height: 45px;
